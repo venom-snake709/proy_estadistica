@@ -1,12 +1,13 @@
 import pandas as pd
+import os
 from statsmodels.stats.weightstats import DescrStatsW
 from scipy.stats import wilcoxon, mannwhitneyu, kruskal, kendalltau, chi2_contingency, boxcox
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import numpy as np
 
-# Cargar datos
-df = pd.read_csv(r"proy_estadistica\\datos.csv")
+# Cargar datos, incluyendo sistemas UNIX
+df = pd.read_csv(r"proy_estadistica\\datos.csv") if os.name == 'nt' else pd.read_csv(r"./datos.csv")
 
 # Filtrar solo columnas numéricas
 df_numericas = df.select_dtypes(include='number')
