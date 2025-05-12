@@ -1,0 +1,60 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\title{\textbf{Universidad Nacional Autónoma de México}\\ \textbf{Facultad de Estudios Superiores Acatlán}\\Estdística II: Análisis Histórico del Clima}
+
+\date{\today}
+\author{Alcantar Hernández Jessica Esmeralda\\Enríquez Sánchez Joshua Antonio\\Salgado Urtes Alexis\\Vilchis López Víctor Manuel}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\begin{abstract}
+    El presente trabajo es un estudio sobre el dataset \textit{Weather in Szeged 2006-2016}, el cual contiene datos históricos y notas sobre el clima en la ciudad de Szeged, Hungría.
+
+    Mediante un análisis en Python, y usando los temas vistos en estadística II, se busca hacer un análisis científico sobre la relación de las variables y una regresión del sistema.
+\end{abstract}
+\newpage
+
+\section{Resumen Ejecutivo}
+\subsection{Tecnologías usadas}
+Mediante el uso de Python3 y de las librerías \textbf{Pandas, StatsModels, SciPy y NumPy} estudiamos el dataset centrándonos en las predicción y el análisis de datos.
+
+\subsection{Intervalos de confianza}
+Como primer paso, se obtuvieron los intervalos de confianza al 95\%, esto es, el rango donde estarán los datos con un 95\% de confianza.
+
+\subsection{Pruebas de hipótesis}
+Continuamos con los análisis de las pruebas de hipótesis sobre los datos, entre las que se encuentran:
+\begin{itemize}
+ \item Prueba de Wilcoxon
+ \item Prueba U Mann-Whitney
+ \item Prueba Kruskal-Wallis
+ \item Prueba Kendall
+\end{itemize}
+\subsection{Regresión Lineal}
+Con los datos presentados, se hace un anális de regresión lineal sobre (agregar después)
+
+\section{Tipos de Datos}
+El dataset contiene unos 96453 registros, cada uno con 12 columnas. Los tipos de datos están distribuidos de la siguiente manera:
+\begin{itemize}
+ \item Formatted Date (Fecha con formato AAAA-MM-DD HH:MM:SS:MMM): Cualitativo
+ \item Summary (Resumen): Cualitativo
+ \item Precip Type (Tipo de precipitación): Cualitativo
+ \item Daily Summary (Resumen diario): Cualitativo
+ \item Loud Cover (Cobertura de nubes): Cualitativo
+ \item Temperature °C (Temperatura): Cuantitativo
+ \item Apparent Temperature °C (Temperatura aparente): Cuantitativo
+ \item Humidity (Humedad): Cuantitativo
+ \item Wind Speed (Velocidad del Viento): Cuantitativo
+ \item Wind Bearing (Dirección del Viento): Cuantitativo
+ \item Visibility (Visibilidad): Cuantitativo
+ \item Pressure (Presión): Cuantitativa
+\end{itemize}
+
+
+\end{document}
+
