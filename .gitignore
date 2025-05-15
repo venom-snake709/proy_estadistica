@@ -175,3 +175,50 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Archivos generados por LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+*.brf
+*.synctex.gz
+*.fdb_latexmk
+*.snm
+*.nav
+*.vrb
+*.xdv
+*.run.xml
+
+# Archivos de respaldo
+*~
+*.bak
+*.backup
+*.tmp
+
+# Salida en PDF u otros formatos (opcional, si no quieres subir el PDF)
+*.pdf
+*.dvi
+*.ps
+
+# Archivos temporales de compiladores
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+
+# VS Code settings (opcional)
+.vscode/
+
