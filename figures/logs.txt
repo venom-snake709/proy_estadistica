@@ -1,0 +1,10 @@
+Datos cargados: 96453 filas, columnas: Temp, Hum, Pres, Wind.
+Limpieza de NaNs y winsorización al 1-99 percentil aplicada.
+VIF inicial: {'const': 97.1266349989477, 'Humidity': 1.0544943712131256, 'Pressure (millibars)': 1.002371795775271, 'Wind Speed (km/h)': 1.0569298880035207}
+Modelo base: Shapiro p=0.000, BP p=0.000, RESET p=0.000, DW=0.053
+Box–Cox aplicado a Humidity con λ=2.033
+Box–Cox aplicado a Pressure (millibars) con λ=4.898
+Box–Cox aplicado a Wind Speed (km/h) con λ=0.504
+VIF post-BoxCox: {'const': 0.0, 'Humidity': 1.0656546088718148, 'Pressure (millibars)': 1.0104702602790074, 'Wind Speed (km/h)': 1.0744464956182698}
+Modelo BoxCox: Shapiro p=0.000, BP p=0.000, RESET p=0.000, DW=0.078
+Heatmap de correlación generado y guardado.
